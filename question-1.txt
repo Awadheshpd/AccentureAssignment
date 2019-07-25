@@ -1,0 +1,33 @@
+Difference between this and let.
+
+Let:
+------
+
+In javascript, we use "let" to define a variable. "let" is a block level variable. 
+It is available only in the block in which it is defined.
+
+for example: 
+
+function sum() {
+    let x=0;
+    if(true) {
+        let y=0;
+    }
+}
+
+So, in this example, the variable y will be accessible in the "if" block only. We cannot
+access it outside this block.
+
+
+
+This:
+------
+
+"this" is a keyword. It is used to access variables;
+So, if a variable is defined like 
+    var a = 5;
+    then we can access it by using
+    "this.a = 9"
+
+
+So, let is used to declare variable whereas "this" is used to access that variable.
